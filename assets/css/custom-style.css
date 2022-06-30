@@ -1,0 +1,124 @@
+@import "variable.css";
+
+@font-face {
+  font-family: HeroNew-Regular;
+  src: url(../fonts/HeroNewRegular.woff);
+}
+ 
+html {
+    font-size: var(--global-font-size);
+}
+
+body{
+    font-family: var(--hero-regular);
+    color: var(--midnight-color);
+    background-color: var(--white-color);
+}
+
+.container:not(.is-max-desktop):not(.is-max-widescreen) {
+    max-width: var(--container);
+}
+.first-container {
+    padding: 1.5rem 0;
+}
+
+.section-medium{
+    padding-top: var(--pt-80);
+    padding-bottom: var(--pb-0);
+}
+
+.site-logo {
+    margin-left: 2rem;
+}
+
+.site-logo img{
+    width: 21rem;
+}
+
+.dropdown{
+    background-color: var(--primary-color);
+    padding: 1rem;
+}
+
+.get-a-quote{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.sub-header{
+    background-color: var(--gray-color);
+}
+
+.sub-header ul li{
+    font-size: 1.3rem;
+    margin-right: 2rem;
+    position: relative;
+}
+.sub-header ul li:after{
+    content: '|';
+    position: absolute;
+    margin-left: 8px;
+}
+
+.sub-header ul li:last-child:after{
+    content: none;
+}
+
+.primary-color{
+ color: var(--primary-color);
+}
+
+.gray-color-dark{
+ color: var(--dark-gray-color);
+}
+
+.has-size-1{
+    font-size: var(--cus-size-1);
+    line-height: var(--cus-lineht-1);
+}
+
+.has-size-2{
+    font-size: var(--cus-size-2);
+    line-height: var(--cus-lineht-2);
+}
+
+.has-size-3{
+    font-size: var(--cus-size-3);
+    line-height: var(--cus-lineht-3);
+}
+
+span.seperator {
+    margin: 0 10px;
+}
+
+.max-wd-4{
+    max-width: 40rem;
+}
+
+.button.know-more-slider {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+    margin-right: 2rem;
+}
+
+.button.know-more-slider:last-child {
+margin-right: 0;
+}
+.dropdown-content {
+    background: var(--primary-color);
+}
+.un-list-nav{
+    width: 30rem;
+    padding: 1rem 2rem;
+}
+.un-list-nav li a{
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+.un-list-nav li{
+    margin: 10px 0;
+    padding: 10px 0;
+    border-bottom: solid 2px #fff;
+}

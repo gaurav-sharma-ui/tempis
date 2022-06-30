@@ -1,0 +1,35 @@
+:root {
+    /*GLOBAL SETTING*/
+    --global-font-size: 62.5%;
+
+    /*CONTAINER WIDTH*/
+    --container: 122.5rem;
+
+    /* FONT WEIGHT */
+    --font-weight-normal: normal;
+    --font-weight-400: 400;
+    --font-weight-900: 900;
+
+    /* FONT FAMILY */
+    --hero-regular: HeroNew-Regular;
+
+    /* Font Size */
+    --cus-size-1: 4.8rem;
+    --cus-size-2: 2.8rem;
+    --cus-size-3: 2.4rem;
+
+    /* line height */
+    --cus-lineht-1: 5.2rem;
+    --cus-lineht-2: 3.8rem;
+    --cus-lineht-3: 3.2rem;
+
+    /* COLORS */
+
+    --primary-color: #008dd1;
+    --secondary-color: #000;
+    --gray-color: #f0f0f0;
+    --dark-gray-color: #5b5b5b;
+
+    --pt-80:8rem;
+    --pb-0: 0rem;
+}
