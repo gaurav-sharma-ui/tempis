@@ -31,6 +31,9 @@
     .top-bar.gray-color-bg {
     margin-bottom: 2rem;
 }
+.last-pointer{
+    line-height: 20px;
+}
     .top-bar-ul li {
     padding: 5px 0px;
     font-size: 11px;
