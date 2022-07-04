@@ -43,11 +43,27 @@ body{
 .get-a-quote{
     font-size: 1.6rem;
     font-weight: bold;
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+.button:hover,.button:focus{
+    color: #fff !important;
+    background-color: var(--primary-color);
 }
 .sub-header{
     background-color: var(--gray-color);
 }
 
+.gray-color-bg{
+    background-color: var(--gray-color);
+}
+
+.top-bar-ul li{
+padding: 10px 0px;
+font-size: 12px;
+margin-right: 2rem;
+}
 .sub-header ul li{
     font-size: 1.3rem;
     margin-right: 2rem;
@@ -91,15 +107,16 @@ span.seperator {
 }
 
 .max-wd-4{
-    max-width: 40rem;
+    max-width: 55rem;
 }
 
 .button.know-more-slider {
-    font-size: 1.8rem;
+        font-size: 1.6rem;
     text-transform: uppercase;
     border-color: var(--primary-color);
     color: var(--primary-color);
     margin-right: 2rem;
+    font-weight: 700;
 }
 
 .button.know-more-slider:last-child {
