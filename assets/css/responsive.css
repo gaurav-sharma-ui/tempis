@@ -26,7 +26,17 @@
     }
     .bottom-header {
         padding: 1rem 0rem;
+        padding-top: 0;
     }
+    .top-bar.gray-color-bg {
+    margin-bottom: 2rem;
+}
+    .top-bar-ul li {
+    padding: 5px 0px;
+    font-size: 11px;
+    margin-right: 1rem;
+}
+
     .tabs li.is-three-fifths {
     flex: 3;
 }
